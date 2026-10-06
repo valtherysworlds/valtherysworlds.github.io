@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valtherysworlds.github.io/sitemap.xml
