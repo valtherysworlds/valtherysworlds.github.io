@@ -5,13 +5,13 @@
 <meta name="google-site-verification" content="aXPBquRLZoK9WlqudfJDX1E-ks5pIoZv7RearEGq28U" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VALTHERYS — Original Fantasy Music for Imaginary Worlds</title>
-<meta name="description" content="VALTHERYS creates original fantasy music and living soundscapes for worlds that exist only in imagination — forgotten kingdoms, enchanted forests, arcane libraries and taverns at the edge of the map. Perfect for reading, writing, worldbuilding and D&D.">
+<meta name="description" content="VALTHERYS creates original fantasy music and living soundscapes for worlds that exist only in imagination — forgotten kingdoms, enchanted forests, arcane libraries and taverns at the edge of the map. Perfect for reading, writing, worldbuilding and D&amp;D.">
 <link rel="canonical" href="https://valtherysworlds.github.io/">
 <meta name="theme-color" content="#0b0a0d">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="VALTHERYS">
 <meta property="og:title" content="VALTHERYS — Original Music for Imaginary Worlds">
-<meta property="og:description" content="Every world has a soundtrack. Original fantasy music and soundscapes for reading, writing, worldbuilding and D&D.">
+<meta property="og:description" content="Every world has a soundtrack. Original fantasy music and soundscapes for reading, writing, worldbuilding and D&amp;D.">
 <meta property="og:url" content="https://valtherysworlds.github.io/">
 <meta property="og:image" content="https://img.youtube.com/vi/Dbkc0Gz1TMo/maxresdefault.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,9 +20,10 @@
 {"@type":"WebSite","@id":"https://valtherysworlds.github.io/#site","url":"https://valtherysworlds.github.io/","name":"VALTHERYS","description":"Original music for imaginary worlds.","inLanguage":"en"},
 {"@type":"Organization","@id":"https://valtherysworlds.github.io/#org","name":"VALTHERYS","url":"https://valtherysworlds.github.io/","email":"valtherysworlds@gmail.com","slogan":"Every world has a soundtrack.","sameAs":["https://www.youtube.com/@Valtherys"]},
 {"@type":"ItemList","name":"VALTHERYS Worlds","itemListElement":[
-{"@type":"ListItem","position":1,"url":"https://youtu.be/Dbkc0Gz1TMo","name":"The Forgotten Kingdom"},
-{"@type":"ListItem","position":2,"url":"https://youtu.be/UZF7tA0e6gk","name":"The Enchanted Forest"},
-{"@type":"ListItem","position":3,"url":"https://youtu.be/mQKKv3NwiJU","name":"The Wizard's Library"}]}
+{"@type":"ListItem","position":1,"url":"https://valtherysworlds.github.io/forgotten-kingdom/","name":"The Forgotten Kingdom"},
+{"@type":"ListItem","position":2,"url":"https://valtherysworlds.github.io/enchanted-forest/","name":"The Enchanted Forest"},
+{"@type":"ListItem","position":3,"url":"https://valtherysworlds.github.io/wizards-library/","name":"The Wizard's Library"},
+{"@type":"ListItem","position":4,"url":"https://valtherysworlds.github.io/moonlit-castle/","name":"The Moonlit Castle"}]}
 ]}
 </script>
 <style>
@@ -52,14 +53,32 @@ h2{font-weight:400;letter-spacing:.2em;text-transform:uppercase;font-size:1.1rem
 .card .body{padding:18px}
 .card .fam{font-size:.72rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
 .card h3{font-weight:400;font-size:1.2rem;margin:6px 0 8px}
+.card h3 a{color:var(--fg)}
 .card p{color:var(--mut);font-size:.92rem;line-height:1.6}
+.card .more{display:inline-block;margin-top:10px;font-size:.85rem;letter-spacing:.08em}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
 .two div{border-left:2px solid var(--gold);padding-left:16px}
 .two h3{font-weight:400;font-size:1rem;margin-bottom:4px}
 .two p{color:var(--mut);font-size:.92rem}
 .about p{max-width:720px;margin-bottom:16px;color:#d6cfbf}
+.hero.world{padding:90px 0 70px}
+.hero .fam{font-size:.78rem;letter-spacing:.25em;color:var(--gold);text-transform:uppercase}
+.hero h1.wname{letter-spacing:.12em;font-size:clamp(1.9rem,6vw,3.4rem);margin-top:10px}
+.hero.world .tag{max-width:680px;margin:16px auto 0}
+.video{position:relative;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.chapters{list-style:none}
+.chapters li{padding:8px 0;border-bottom:1px solid var(--line);color:#d6cfbf}
+.chapters li a{display:inline-block;min-width:64px;font-variant-numeric:tabular-nums}
+.shorts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+.short{display:block;background:var(--bg2);border:1px solid var(--line);color:var(--fg)}
+.short img{width:100%;aspect-ratio:9/16;object-fit:cover;display:block;opacity:.85}
+.short span{display:block;padding:8px 10px;font-size:.8rem;color:var(--mut);line-height:1.4}
+.worldnav{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.worldnav a{font-size:1rem}
 footer{border-top:1px solid var(--line);padding:36px 0;text-align:center;color:var(--mut);font-size:.85rem}
 footer a{margin:0 8px}
+
 </style>
 </head>
 <body>
@@ -80,16 +99,20 @@ footer a{margin:0 8px}
 <h2>The Worlds</h2>
 <div class="grid">
 <article class="card">
-<a class="thumb" href="https://youtu.be/Dbkc0Gz1TMo" rel="noopener" aria-label="Watch The Forgotten Kingdom on YouTube"><img loading="lazy" src="https://img.youtube.com/vi/Dbkc0Gz1TMo/hqdefault.jpg" alt="The Forgotten Kingdom — a castle on a cliff above a misty valley"></a>
-<div class="body"><div class="fam">The Kingdoms</div><h3>The Forgotten Kingdom</h3><p>No one remembers its name. The lights still burn, the banners hang still, and the mist never fully leaves the valley. It only lets itself be found by those who have stopped looking.</p></div>
+<a class="thumb" href="/forgotten-kingdom/" aria-label="Enter The Forgotten Kingdom"><img loading="lazy" src="https://img.youtube.com/vi/Dbkc0Gz1TMo/hqdefault.jpg" alt="The Forgotten Kingdom — a castle on a cliff above a misty valley"></a>
+<div class="body"><div class="fam">The Kingdoms</div><h3><a href="/forgotten-kingdom/">The Forgotten Kingdom</a></h3><p>No one remembers its name. The lights still burn, the banners hang still, and the mist never fully leaves the valley. It only lets itself be found by those who have stopped looking.</p><a class="more" href="/forgotten-kingdom/">Enter this world →</a></div>
 </article>
 <article class="card">
-<a class="thumb" href="https://youtu.be/UZF7tA0e6gk" rel="noopener" aria-label="Watch The Enchanted Forest on YouTube"><img loading="lazy" src="https://img.youtube.com/vi/UZF7tA0e6gk/hqdefault.jpg" alt="The Enchanted Forest — glowing moss and ancient trees"></a>
-<div class="body"><div class="fam">The Wilds</div><h3>The Enchanted Forest</h3><p>A forest that is never the same twice. Moss glows faintly at dusk, the trees remember every visitor, and unexplained stone ruins wait at its heart.</p></div>
+<a class="thumb" href="/enchanted-forest/" aria-label="Enter The Enchanted Forest"><img loading="lazy" src="https://img.youtube.com/vi/UZF7tA0e6gk/hqdefault.jpg" alt="The Enchanted Forest — glowing moss and ancient trees"></a>
+<div class="body"><div class="fam">The Wilds</div><h3><a href="/enchanted-forest/">The Enchanted Forest</a></h3><p>A forest that is never the same twice. Moss glows faintly at dusk, the trees remember every visitor, and unexplained stone ruins wait at its heart.</p><a class="more" href="/enchanted-forest/">Enter this world →</a></div>
 </article>
 <article class="card">
-<a class="thumb" href="https://youtu.be/mQKKv3NwiJU" rel="noopener" aria-label="Watch The Wizard's Library on YouTube"><img loading="lazy" src="https://img.youtube.com/vi/mQKKv3NwiJU/hqdefault.jpg" alt="The Wizard's Library — endless shelves lit by candlelight"></a>
-<div class="body"><div class="fam">Arcane Realms</div><h3>The Wizard's Library</h3><p>A library with no entrance from the outside. The wizard is gone, the candles still burn, and on the table lies a map of a kingdom without a name.</p></div>
+<a class="thumb" href="/wizards-library/" aria-label="Enter The Wizard&#x27;s Library"><img loading="lazy" src="https://img.youtube.com/vi/mQKKv3NwiJU/hqdefault.jpg" alt="The Wizard&#x27;s Library — endless shelves lit by candlelight"></a>
+<div class="body"><div class="fam">Arcane Realms</div><h3><a href="/wizards-library/">The Wizard&#x27;s Library</a></h3><p>A library with no entrance from the outside. The wizard is gone, the candles still burn, and on the table lies a map of a kingdom without a name.</p><a class="more" href="/wizards-library/">Enter this world →</a></div>
+</article>
+<article class="card">
+<a class="thumb" href="/moonlit-castle/" aria-label="Enter The Moonlit Castle"><img loading="lazy" src="https://img.youtube.com/vi/L5eF_df9gt8/hqdefault.jpg" alt="The Moonlit Castle — a castle on a black lake under the full moon"></a>
+<div class="body"><div class="fam">The Kingdoms</div><h3><a href="/moonlit-castle/">The Moonlit Castle</a></h3><p>A castle in a black lake, reachable only while the moon is in the sky. Its windows glow without candles, and its bells ring once a night, though their ropes rotted centuries ago.</p><a class="more" href="/moonlit-castle/">Enter this world →</a></div>
 </article>
 </div>
 <p style="margin-top:28px;color:var(--mut)">A new world opens every Wednesday. <a href="https://www.youtube.com/@Valtherys" rel="noopener">See every world on YouTube →</a></p>
